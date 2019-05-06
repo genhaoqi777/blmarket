@@ -1,0 +1,97 @@
+
+header{
+    height:96px;
+    .inner{
+        @extend %inner;
+        position: relative;
+        .header-logo{
+            width: 410px;
+            height: 60px;
+            margin-top: 18px;
+            float: left;
+            .logo{
+                width: 190px;
+                float: left;
+            }
+            .logo-rightpic{
+             
+                float: left;
+                margin-left: 25px;
+            }
+        }
+    }
+}
+
+.search-box{
+    width: 780px;
+    position: absolute;
+    margin-top: 25px;
+    left: 415px;
+    .safepay{
+        float: right;
+        width:215px;
+        height: 35px;
+        a{
+            border: 1px solid #d7d7d7;
+            border-radius: 3px;
+            margin-left: 2px;
+            color: #666;
+            float: left;
+            padding: 0 19px 0 12px;
+            height: 33px;
+            line-height: 33px;
+        }
+    }
+    .searchbox{
+        width: 516px;
+        height: 35px;        
+            button{
+                height: 35px;
+                width: 85px;
+                background: #ff3d3d url(../img/ser_btnbg.png) no-repeat center center;
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+                border:0;
+            }        
+    }
+}
+
+.searchbox-top{
+    background: #ff3d3d;
+    padding: 2px 0 2px 2px;
+    float: left;
+    position: relative;
+    .input-div{
+    background: #FFF;
+    height: 31px;
+    padding: 0 10px;
+  
+    .input1{
+    padding: 6px 0;
+    height: 19px;
+    line-height: 19px;
+    border: 0;
+    width: 406px;
+    font-size: 13px;
+    outline: none;
+    color:#666;
+    }
+    }
+}
+.searchbox-bottom{
+    width: 490px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: -5px;
+    a{
+    color: #999;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+    span{
+    float: left;
+    color: #e5e5e5;
+    margin-left: 5px;
+    }
+}

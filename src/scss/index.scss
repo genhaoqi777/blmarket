@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import "header";
+@import "nav";
+@import "shownav";
+@import "banner";
+@import "supergroup";
+@import "floor";
+
+
+@import "footer";
+%inner{
+    width: 1190px;
+   margin: 0 auto;
+}
+@for $i from 0 through 13{
+    .i#{$i}{
+        background: url(../img/nav-v3-icon-1.png) no-repeat;
+        background-position:0 -30px * $i;
+    }
+}
+$circletop:340px;
+$circleleft:33px;
+
+%littlecircle{
+    width:126px;
+    position: absolute;
+    top:$circletop;
+    left:$circleleft;
+    li{
+        float: left;
+        margin-right:10px;
+        background: #fff;
+        width:30px;
+        height:6px;
+    }
+}
+

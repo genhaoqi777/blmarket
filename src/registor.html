@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/registor.css">
+</head>
+
+<body>
+    <div class="regheader">
+        <div class="inner">
+            <ul class="left">
+                <li><a href="#"><img src="img/header-logo.png" alt=""></a></li>
+                <li><a href="#"><img src="img/V3login-font4.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="inner">
+        <div class="main">
+            <div class="main-top">
+                <div class="main-top-l">
+                        您好，感谢您加入i百联
+                </div>
+                <div class="main-top-r">
+                        如有账号，请点击 <a href="#">登录</a>
+                </div>
+            </div>
+            <div class="main-bottom">
+                <form>
+                    <p><label for=""><i>*</i>用户名:</label><input type="text" class="input1" placeholder="6-20位字符，支持字母或字母与数字组合"><span></span></p>
+                    <p><label for=""><i>*</i>登录密码:</label><input type="password" class="input2" placeholder="8-20位字符，至少使用两种字符组合"><span></span></p>
+                    <p><label for=""><i>*</i>确认密码:</label><input type="password" class="input3" placeholder="请再次输入密码"><span></span></p>
+                    <p><label for=""><i>*</i>手机号:</label><input type="text" class="input4" placeholder="请输入11位手机号码"><span></span></p>
+                    <p><label for="">验证码:</label><input type="text" class="input5" placeholder="请输入验证码"><span></span></p>
+                    <p><label for=""><i>*</i>短信验证码:</label><input type="text" class="input6" placeholder="请输入短信验证码"><button class="obtainletter">获取验证码</button><span></span></p>
+                    <p><label for="">电子邮箱:</label><input type="text" class="input7" placeholder="请输入有效邮箱"><span></span></p>
+                </form>
+                <div class="itembox">
+                <label><input type="checkbox" class="iagree"><span>我已阅读并同意</span></label>
+                    <a href="#">《百联通会员注册协议》、</a>
+                    <a href="#">《安付宝用户服务协议》、</a>
+                    <a href="#">《安付宝隐私权政策》</a>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="立即注册 完成绑定">
+                </div>
+            </div>
+        </div>
+    </div>
+<footer></footer>
+    <script src="script/js/jquery.js"></script>
+    <script>
+        $('footer').load('footer.html')
+    </script>
+</body>
+
+</html>

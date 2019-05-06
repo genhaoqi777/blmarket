@@ -1,0 +1,100 @@
+.super-group{
+    height:250px;
+    padding:20px 0;
+    .inner{
+        @extend %inner;
+        .super-group-l{
+            float: left;
+        }
+    }
+}
+
+.super-group-r{
+    width: 965px;
+    height: 248px;
+    border: 1px solid #e4e4e4;
+    float: right;
+    border-left: none;
+    overflow: hidden;
+    position: relative;
+    ul{
+        width:1962px;
+        padding: 11px 0 10px;
+        li{
+            float: left;
+            border-right: 1px dashed #e4e4e4;
+            width:160px;
+            height:227px;
+            .super-group-show{
+                padding:0 10px;
+            }
+        }
+    }
+    img{
+        width:140px;
+        height:140px;
+    }
+}
+
+.super-group-show{
+    .super-group-name{
+        height: 40px;
+        line-height: 20px;
+        overflow: hidden;
+        a{
+            color:#333;
+        }
+    }
+    .money{
+        color: #ff6f6f;
+        font-weight: 700;
+        font-family: '\5FAE\8F6F\96C5\9ED1';
+        font-size: 12px;
+        line-height: 26px;
+            span{
+                font-size: 16px;
+            }
+    }
+    .price{
+        color: #bbb;
+        font-family: '\5FAE\8F6F\96C5\9ED1';
+    }
+}
+
+// meetlate list
+.meetlate{
+    height: 370px;
+    padding-bottom: 20px;
+    .inner{
+        @extend %inner;
+        position: relative;
+        .meetlate-l{
+            width: 305px;
+            height: 370px;
+            overflow: hidden;
+            float: left;
+            position: relative;
+        }
+    }
+}
+.meetlate-r{
+    width: 885px;
+    height: 370px;
+    float: left;
+    li{
+        width: 285px;
+        height: 180px;
+        margin-left: 10px;
+        float: left;
+        margin-bottom: 10px;
+        img{
+            width:285px;
+            height:180px;
+        }
+    }
+}
+
+// left circle lunbo
+.littlecircle{
+   @extend %littlecircle;
+}

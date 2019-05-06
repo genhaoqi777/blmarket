@@ -1,0 +1,97 @@
+.footer{
+    padding-top: 30px;
+    .inner{
+        @extend %inner;
+        padding: 24px 0;
+        background: #f3f3f3;
+        .listfile{
+            float: left;
+            width: 200px;
+            margin: 0 10px;
+            .listfile-title{
+                height: 40px;
+                line-height: 40px;
+                color: #000;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.listfile-title{
+    i{
+        float: left;
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    .ico1{
+        background:url(../img/footer1200_sprite.png) no-repeat;
+    }
+    .ico2{
+        background:url(../img/footer1200_sprite.png) no-repeat 0 -40px;
+    }
+    .ico3{
+        background:url(../img/footer1200_sprite.png) no-repeat 0 -80px;
+    }
+    .ico4{
+        background:url(../img/footer1200_sprite.png) no-repeat 0 -120px;
+    }
+    .ico5{
+        background:url(../img/footer1200_sprite.png) no-repeat 0 -160px;
+    }
+}
+
+.listfile{
+    ul{
+        margin-left: 55px;
+        font-size: 13px;
+        line-height: 26px;
+        a{
+            color: #555;
+        }
+    }
+}
+
+// 关于我们联系我们
+.aboutus{
+    text-align: center;
+    padding: 15px 0 0;
+    color: #999;
+    line-height: 24px;
+    .top-aboutus{
+        a{
+            color:#333;
+        }
+       span{
+           padding:0 8px;
+       }
+    }
+}
+.copyright{
+    span{
+        padding:0 8px;
+    }
+}
+.inter{
+    color:#666;
+}
+
+.police{
+    .gongsimg{
+        width:20px;
+        height:21px;
+    }
+    a{
+        line-height: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 10px;
+        display:inline-block;
+        span{
+            margin: 0 0 0 5px;
+            color: #999;
+            padding:0 8px;
+        } 
+    }
+}

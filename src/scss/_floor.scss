@@ -1,0 +1,10 @@
+.floor{
+    margin-bottom: 20px;
+    .inner{
+        @extend %inner;
+        h3{
+            height:50px;
+        }
+      
+    }
+}

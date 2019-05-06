@@ -1,0 +1,107 @@
+.show-nav{
+  position: relative;
+    .inner{
+        @extend %inner;
+        .shownav-bg{
+            width: 190px;
+            height: 431px;
+            background: #151515;
+            opacity: .75;
+            position: absolute;
+            top:0;
+            z-index: 3;
+        }
+        .menuitem-left{
+            float: left;
+            position: relative;
+            z-index: 4;
+            line-height: 28px;
+            height: 412px;
+            width: 190px;
+            text-align: left;
+            padding: 11px 0 9px;
+            box-shadow: -2px 0 2px rgba(0,0,0,.2);
+        }
+    }
+}
+
+.menuitem-left{
+    li{
+        padding-left: 16px;
+        cursor: pointer;
+        height:29px;
+        line-height:29px;
+        i{
+            margin-top: 6px;
+            float: left;
+            width: 16px;
+            height: 16px;
+            line-height: 16px;
+            font-size: 16px;
+           
+        }
+        span{
+            margin-left: 10px;   
+            font-size: 13px;
+          
+            a{
+                color: #fff; 
+             
+            }
+        }
+    }
+}
+// 二级导航
+.sub-shownav{
+   float: left;
+
+    li{
+        width:984px;
+        height:416px;
+        padding:8px;
+        display: none;
+     
+        .subnav_img{
+            float:right;
+            width: 240px;
+            height: 422px;
+            a{
+                margin-bottom: 9px;
+                display: block;
+            }
+        }
+       
+    }
+}
+.menu_floor{
+    margin: 10px 0 0 5px;
+    line-height: 23px;
+  
+    span{
+        width: 75px;
+        font-weight: 700;
+        float: left;
+        margin-right: 23px;
+        text-align: right;
+       
+   
+        a{
+            color:#000;
+       
+        }
+    }
+    .menu_floor_a{
+        width: 620px;
+        float: left;
+        line-height: 23px;
+        padding-bottom: 5px;
+        border-bottom: 1px dashed #f3f3f3;
+        
+        a{
+            margin-right: 18px;
+            color:#666;
+            display: inline-block;          
+        }
+    }
+}
+

@@ -1,0 +1,46 @@
+.regheader{
+    height:110px;
+       li{
+           margin-top:29px;
+           float: left;
+           margin-left:9px;
+    }
+}
+.loginmain{
+    padding: 30px 0 25px 0;
+    background: url(../img/login-body.jpg) no-repeat center bottom;
+}
+.inner{
+    width:950px;
+    margin:0 auto;
+}
+
+
+.inner1{
+    width: 488px;
+    margin: 0px auto;
+    border: 6px solid #e2e2e2;
+    background: #fff;
+    .main{
+        width: 300px;
+        margin: 0px auto;
+        padding: 45px 0px;
+        p{
+            margin:10px 0;
+        }
+
+    }
+}
+
+.maincontent{
+    height: 50px;
+    line-height: 45px;
+    margin-bottom:10px;
+    span{
+        font-size: 18px;
+        color: #000000;
+    }
+    a{
+        color: #0088cc;
+    }
+}

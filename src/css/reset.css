@@ -1,0 +1,14 @@
+body,header,footer,nav,ul,div,li,dl,dt,dd,ol,h1,h2,h3,h4,h5,h6,form,fieldset,input,p {
+    margin: 0;padding: 0}
+body{font-size:12px}
+li{list-style:none}
+a{text-decoration: none}
+img{border:0;vertical-align: middle}
+.right{float: right;}
+.left{float:left}
+.clear::after {content: "";clear: both;display: block;height: 0;overflow: hidden;visibility: hidden
+}
+i,b,strong,em{
+    font-style: normal;
+    font-weight:normal;
+}
