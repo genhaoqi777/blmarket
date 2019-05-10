@@ -1,3 +1,4 @@
+
 $toolbar_height:30px;
 
 @mixin istyle($w:7px,$h:4px){
@@ -68,13 +69,21 @@ $toolbar_height:30px;
     }
 }
 
-
+.login-nav li:hover .subnav{display: block}
 .login-nav{
     li{
         float: left;
         height: 30px;
         line-height: 30px;
         position: relative;
+        .subnav{
+            position: absolute;
+            left: 0;
+            top:32px;
+            z-index: 777;
+            background: #FFF;
+            display: none;
+        }
       b{
         position: absolute;
         width: 1px;
@@ -107,5 +116,133 @@ $toolbar_height:30px;
         }
     }
 }
+.subsitmap{
+    position: absolute;
+    left:0;
+    z-index: 666;
+    background:white;
+    display: none;
+}
 
+// fileheader
+.fileheader{
+    height: 70px;
+    box-shadow: 0 3px 3px #eee;
+    position: fixed;
+    width:100%;
+    top:-76px;
+    z-index: 999;
+    background:#fff;
+    .inner{
+        width:1190px;
+        margin:0 auto;
+      
+        .filenav{
+            width: 52px;
+            float: left;
+            margin-top: 11px;
+            margin-right: 25px;
+            position: relative;
+            text-align: center;
+            cursor: pointer;
+            .flienavtitle{
+                 line-height: 20px;
+            }
+           .flienavicon{
+                width: 52px;
+                height: 39px;
+                line-height: 30px;
+                font-size: 20px;
+                background: #fff url(../img/filenavicon-1.png) no-repeat center 7px;
+           }
+        }
+    }
+}
 
+.file-head-logo{
+    float: left;
+    margin-top: 9px;
+    width: 380px;
+    img{
+        height:49px;
+    }
+}
+
+.fileheader{
+    .searchbox{
+        float: left;
+        height: 35px;
+        margin-top: 17px;
+        position: relative;
+    }
+    .search-box-button{
+        height: 35px;
+        width: 85px;
+        background: #ff3d3d url(../img/ser_btnbg.png) no-repeat center center;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border: 0;
+    }
+    .file-head-info{
+        float: right;
+        line-height: 70px;
+        font-size: 15px;
+        a{
+            color: #666;
+        }
+        .span{
+            padding: 0 10px;
+        }
+    }
+}
+.meetlate{
+    .meetlate-r{
+        margin-bottom: 20px;
+    }
+}
+
+.meetlate-l{
+    b{
+        height: 50px;
+        color: #333;
+        font-size: 26px;
+        line-height: 48px;
+        display: inline-block;
+    }
+}
+
+// cebianlouti
+
+.navigation{
+    display:none;
+    width: 50px;
+    height: 449px;
+    position: fixed;
+    top:70px;
+    left:25px;
+    background: url(../img/barnav3.jpg) no-repeat;
+    a{
+        width: 50px;
+        height: 49px;
+        display: block;
+        color:#666;
+        .navbox{
+            width: 30px;
+            height: 42px;
+            line-height: 16px;
+            text-align: center;
+            cursor: pointer;
+            padding: 7px 10px 0px;
+         
+        }
+        .navbox-b{
+            background: url(../img/bantop.png) no-repeat 0 0;
+        }
+    }
+}
+.active{
+    background: #ff6f6f;
+    .navbox{
+        color:#fff;
+    }
+}

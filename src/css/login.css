@@ -17,6 +17,11 @@
   margin: 0 auto;
 }
 
+input {
+  border: 0;
+  border: 1px solid #ccc;
+}
+
 .inner1 {
   width: 488px;
   margin: 0px auto;
@@ -29,13 +34,46 @@
   padding: 45px 0px;
 }
 .inner1 .main p {
-  margin: 10px 0;
+  margin: 20px 0;
+}
+.inner1 .main p input {
+  width: 250px;
+  padding: 0 12px 0 35px;
+  height: 34px;
+}
+
+.p_input1 {
+  background: url(https://res13.iblimg.com/respc-1/resources/v3.0/css/i/userpic.png) no-repeat 10px 10px;
+}
+
+.p_input2 {
+  background: url(https://res13.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png) no-repeat 10px 10px;
+}
+
+.p_input3 {
+  width: 140px !important;
+  background: url(https://res14.iblimg.com/respc-1/resources/v3.0/css/i/passwordpic.png) no-repeat 10px 10px;
+}
+
+.forget-pass {
+  color: #666;
+}
+
+.loginbutton {
+  color: #fff;
+  background: #e6133c;
+  height: 36px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 0;
+  width: 100% !important;
+  font-size: 16px !important;
 }
 
 .maincontent {
   height: 50px;
   line-height: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .maincontent span {
   font-size: 18px;
@@ -43,6 +81,62 @@
 }
 .maincontent a {
   color: #0088cc;
+}
+
+.first-login {
+  height: 52px;
+  text-align: right;
+  line-height: 52px;
+}
+.first-login a {
+  background: url(../img/right-icon.png) no-repeat left;
+  padding-left: 23px;
+  color: #666666;
+}
+
+.otherlogin {
+  height: 49px;
+  line-height: 49px;
+}
+.otherlogin .otherlogin-t {
+  height: 24px;
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  line-height: 49px;
+}
+.otherlogin .otherlogin-t span {
+  padding: 0px 15px;
+  color: #999;
+  line-height: 49px;
+  background: #fff;
+}
+
+.loginlogo {
+  width: 320px;
+  margin: 10px 0 10px -10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.loginlogo a {
+  width: 66px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+  float: left;
+  margin: 0 0 10px 30px;
+}
+.loginlogo .login-a1 {
+  background-image: url(../img/login-cion-1.png);
+}
+.loginlogo .login-a2 {
+  background-image: url(../img/login-cion-2.png);
+}
+.loginlogo .login-a3 {
+  background-image: url(../img/login-cion-3.png);
+}
+.loginlogo .login-a4 {
+  background-image: url(../img/login-cion-4.png);
 }
 
 /*# sourceMappingURL=login.css.map */
